@@ -1,0 +1,134 @@
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black !important; 
+    color: white; 
+    
+}
+
+/* Estilo barra de navegación */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transition: background-color 0.5s ease;
+}
+
+.navbar-brand img {
+    height: 50px; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem; 
+    font-family: 'Arial', sans-serif; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; 
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Estilos sección del carrusel */
+.carousel-item {
+    height: 80vh; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 60vh; 
+    }
+}
+
+/* Estilos sección de presentación */
+.presentacion {
+    margin-top: 100px;
+}
+
+.presentacion .col-md-4 {
+    margin-bottom: 30px; 
+}
+
+.presentacion .icono1, .presentacion .icono2, .presentacion .icono3 {
+    font-size: 1rem; 
+    color: white; 
+    background-color: lightblue;
+}
+
+.presentacion p {
+    margin-top: 20px; 
+}
+
+/* Estilos sección de destacados */
+.destacados .card {
+    margin-bottom: 30px; 
+}
+
+.destacados .card img {
+    height: 200px;
+    object-fit: cover; 
+}
+
+.destacados .card-body { 
+
+background-color: lightblue;
+
+}
+
+
+/* Estilos sección de contacto */
+
+.contacto {
+    margin-top: 50px;
+}
+
+.contacto h2 {
+    font-size: 2rem; 
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+.contacto .form-control {
+    margin-bottom: 20px; 
+    background-color: dimgrey;
+}
+
+/* Estilos pie de página */
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color:lightblue;
+}
+
+.footer p {
+    margin: 0;
+    color: white; 
+}
+
+.footer a {
+    color: white; /* Color iconos rrss */
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #ddd; /* Color iconos rrss al pasar el mouse */
+}
+
+/* Correcciones */
+.QS {
+    text-align: center;
+    font-size: 2rem; 
+    margin-top: 50px;
+}
+
+.DESTACADOS {
+    text-align: center;
+    font-size: 2rem; 
+    margin-top: 50px;
+}
